@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Veterinaria | Mascotizados</title>
+  <meta name="description" content="Veterinaria Mascotizados: consulta, vacunas, salud y procedimientos programados para perros y gatos en Suba, Bogotá." />
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#3a2bdc" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="./index.html" aria-label="Ir al inicio">
+      <img class="brand__logo" src="./assets/logo.jpg" alt="Mascotizados logo" />
+      <div class="brand__text">
+        <span class="brand__name">Mascotizados</span>
+        <span class="brand__tagline">Tu mascota merece lo mejor</span>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="./servicios.html">Servicios</a>
+      <a href="./tienda.html">Productos</a>
+      <a href="./veterinaria.html">Veterinaria</a>
+      <a href="./esterilizacion.html">Esterilización</a>
+      <a href="./galeria.html">Galería</a>
+      <a href="./contacto.html" class="nav__cta">Contacto</a>
+    </nav>
+
+    <button class="menuBtn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </div>
+
+  <div class="mobileNav" id="mobileNav" hidden>
+    <a href="./servicios.html">Servicios</a>
+    <a href="./tienda.html">Productos</a>
+    <a href="./veterinaria.html">Veterinaria</a>
+    <a href="./esterilizacion.html">Esterilización</a>
+    <a href="./galeria.html">Galería</a>
+    <a href="./contacto.html">Contacto</a>
+  </div>
+</header>
+
+<main>
+  <section class="pageHero">
+    <div class="container">
+      <h1>Veterinaria</h1>
+      <p>Atención integral: consulta, vacunas, salud y cirugía.</p>
+      <div class="pageHero__actions">
+        <a class="btn btn--primary" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20agendar%20cita%20veterinaria%20(edad%2C%20peso%2C%20motivo)." target="_blank" rel="noopener">Agendar cita</a>
+        <a class="btn btn--ghost" href="./esterilizacion.html">Ver esterilización</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--4">
+        <article class="card">
+          <h3>🩺 Consulta</h3>
+          <p>Valoración general y recomendaciones.</p>
+        </article>
+        <article class="card">
+          <h3>💉 Vacunas</h3>
+          <p>Esquemas y refuerzos.</p>
+        </article>
+        <article class="card">
+          <h3>🧪 Salud</h3>
+          <p>Revisión preventiva y apoyo en procedimientos.</p>
+        </article>
+        <article class="card">
+          <h3>🏥 Cirugía</h3>
+          <p>Procedimientos programados.</p>
+        </article>
+      </div>
+
+      <div class="grid grid--2" style="margin-top:14px;">
+        <div class="card">
+          <h3>Checklist para pedir tu cita</h3>
+          <ul class="list">
+            <li>Especie (perro/gato)</li>
+            <li>Edad y peso aproximado</li>
+            <li>Síntomas o motivo de consulta</li>
+            <li>Si tiene vacunas al día</li>
+          </ul>
+        </div>
+        <div class="card card--media">
+          <img src="./assets/post-servicios.jpg" alt="Servicios Mascotizados" />
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="floatWA" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="WhatsApp Mascotizados">💬</a>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <strong>Mascotizados</strong><br/>
+      <span class="muted">Tu mascota merece lo mejor</span>
+    </div>
+    <div class="muted">© <span id="year"></span> Mascotizados • Bogotá D.C.</div>
+  </div>
+</footer>
+<script src="./script.js"></script>
+
+</body>
+</html>

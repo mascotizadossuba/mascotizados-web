@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Galería | Mascotizados</title>
+  <meta name="description" content="Galería Mascotizados: placas personalizadas, comederos, camas, gimnasios para gatos y detalles para tu mascota en Suba, Bogotá." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#3a2bdc" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="./index.html" aria-label="Ir al inicio">
+      <img class="brand__logo" src="./assets/logo.jpg" alt="Mascotizados logo" />
+      <div class="brand__text">
+        <span class="brand__name">Mascotizados</span>
+        <span class="brand__tagline">Tu mascota merece lo mejor</span>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="./servicios.html">Servicios</a>
+      <a href="./tienda.html">Productos</a>
+      <a href="./veterinaria.html">Veterinaria</a>
+      <a href="./esterilizacion.html">Esterilización</a>
+      <a href="./galeria.html">Galería</a>
+      <a href="./contacto.html" class="nav__cta">Contacto</a>
+    </nav>
+
+    <button class="menuBtn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </div>
+
+  <div class="mobileNav" id="mobileNav" hidden>
+    <a href="./servicios.html">Servicios</a>
+    <a href="./tienda.html">Productos</a>
+    <a href="./veterinaria.html">Veterinaria</a>
+    <a href="./esterilizacion.html">Esterilización</a>
+    <a href="./galeria.html">Galería</a>
+    <a href="./contacto.html">Contacto</a>
+  </div>
+</header>
+
+<main>
+  <section class="pageHero">
+    <div class="container">
+      <h1>Galería</h1>
+      <p>Fotos reales de productos personalizados y accesorios.</p>
+      <div class="pageHero__actions">
+        <a class="btn btn--primary" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20cotizar%20un%20producto%20personalizado%20(placa%2Fcomedero%2Fcollar%2Fcama)." target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+        <a class="btn btn--ghost" href="./tienda.html">Ver productos</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="masonry">
+        <figure class="masonry__item">
+          <img src="./assets/galeria-01-gato-placa.jpg" alt="Gato con placa personalizada" loading="lazy" />
+          <figcaption>Placa personalizada (gatos)</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-02-perro-placa.jpg" alt="Perro con placa personalizada" loading="lazy" />
+          <figcaption>Placa personalizada (perros)</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-08-collar-personalizado.jpg" alt="Collar y placa personalizada" loading="lazy" />
+          <figcaption>Collares y placas</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-06-comedero-personalizado.jpg" alt="Comedero personalizado" loading="lazy" />
+          <figcaption>Comederos personalizados</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-04-cama-perro.jpg" alt="Cama para perro" loading="lazy" />
+          <figcaption>Camas para perros</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-05-cama-gato.jpg" alt="Cama para gato" loading="lazy" />
+          <figcaption>Camas para gatos</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-03-figura-jeronimo.jpg" alt="Figura de mascota personalizada" loading="lazy" />
+          <figcaption>Detalles personalizados</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-07-portarretrato-jeronimo.jpg" alt="Portarretrato personalizado" loading="lazy" />
+          <figcaption>Portarretratos personalizados</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-09-llavero-gato.jpg" alt="Llavero de gato" loading="lazy" />
+          <figcaption>Llaveros y accesorios</figcaption>
+        </figure>
+        <figure class="masonry__item">
+          <img src="./assets/galeria-10-gimnasios-gatos.jpg" alt="Gimnasios para gatos" loading="lazy" />
+          <figcaption>Gimnasios para gatos</figcaption>
+        </figure>
+      </div>
+
+      <div class="notice" style="margin-top:14px;">
+        <strong>¿Quieres que aparezca el precio?</strong> Me dices el “desde” de cada producto y lo dejamos visible.
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="floatWA" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="WhatsApp Mascotizados">💬</a>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <strong>Mascotizados</strong><br/>
+      <span class="muted">Tu mascota merece lo mejor</span>
+    </div>
+    <div class="muted">© <span id="year"></span> Mascotizados • Bogotá D.C.</div>
+  </div>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>

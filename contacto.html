@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Contacto | Mascotizados</title>
+  <meta name="description" content="Contacto Mascotizados: WhatsApp 302 397 5506, Calle 128F No. 104B-09 esquina, Bogotá D.C." />
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#3a2bdc" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="./index.html" aria-label="Ir al inicio">
+      <img class="brand__logo" src="./assets/logo.jpg" alt="Mascotizados logo" />
+      <div class="brand__text">
+        <span class="brand__name">Mascotizados</span>
+        <span class="brand__tagline">Tu mascota merece lo mejor</span>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="./servicios.html">Servicios</a>
+      <a href="./tienda.html">Productos</a>
+      <a href="./veterinaria.html">Veterinaria</a>
+      <a href="./esterilizacion.html">Esterilización</a>
+      <a href="./galeria.html">Galería</a>
+      <a href="./contacto.html" class="nav__cta">Contacto</a>
+    </nav>
+
+    <button class="menuBtn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </div>
+
+  <div class="mobileNav" id="mobileNav" hidden>
+    <a href="./servicios.html">Servicios</a>
+    <a href="./tienda.html">Productos</a>
+    <a href="./veterinaria.html">Veterinaria</a>
+    <a href="./esterilizacion.html">Esterilización</a>
+    <a href="./galeria.html">Galería</a>
+    <a href="./contacto.html">Contacto</a>
+  </div>
+</header>
+
+<main>
+  <section class="pageHero">
+    <div class="container">
+      <h1>Contacto</h1>
+      <p>Te atendemos por WhatsApp y redes.</p>
+      <div class="pageHero__actions">
+        <a class="btn btn--primary" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20vengo%20de%20la%20p%C3%A1gina%20web%20y%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        <a class="btn btn--ghost" href="https://www.instagram.com/mascotizados1/" target="_blank" rel="noopener">Abrir Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>WhatsApp</h3>
+          <p class="big"><a href="https://wa.me/573023975506" target="_blank" rel="noopener">302 397 5506</a></p>
+
+          <h3>Dirección</h3>
+          <p>Calle 128F No. 104B-09 (esquina), Bogotá D.C.</p>
+
+          <h3>Instagram</h3>
+          <p><a href="https://www.instagram.com/mascotizados1/" target="_blank" rel="noopener">@mascotizados1</a></p>
+
+          <div class="chips">
+            <span class="chip">Alimentos</span>
+            <span class="chip">Peluquería</span>
+            <span class="chip">Snacks</span>
+            <span class="chip">Juguetes</span>
+            <span class="chip">Veterinaria</span>
+            <span class="chip">Esterilización</span>
+          </div>
+        </div>
+
+        <div class="card card--media">
+          <iframe
+            title="Mapa Mascotizados"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Calle%20128F%20%23104B-09%2C%20Bogot%C3%A1%2C%20Colombia&output=embed">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="notice" style="margin-top:14px;">
+        <strong>Para mejorar el SEO:</strong> cuando tengas dominio, conecta Google Business Profile y agrega horario real.
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="floatWA" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="WhatsApp Mascotizados">💬</a>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <strong>Mascotizados</strong><br/>
+      <span class="muted">Tu mascota merece lo mejor</span>
+    </div>
+    <div class="muted">© <span id="year"></span> Mascotizados • Bogotá D.C.</div>
+  </div>
+</footer>
+<script src="./script.js"></script>
+
+</body>
+</html>

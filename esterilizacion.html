@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Esterilización | Mascotizados</title>
+  <meta name="description" content="Jornadas de esterilización para perros y gatos en Suba, Bogotá. Agenda por WhatsApp 302 397 5506." />
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#3a2bdc" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="./index.html" aria-label="Ir al inicio">
+      <img class="brand__logo" src="./assets/logo.jpg" alt="Mascotizados logo" />
+      <div class="brand__text">
+        <span class="brand__name">Mascotizados</span>
+        <span class="brand__tagline">Tu mascota merece lo mejor</span>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="./servicios.html">Servicios</a>
+      <a href="./tienda.html">Productos</a>
+      <a href="./veterinaria.html">Veterinaria</a>
+      <a href="./esterilizacion.html">Esterilización</a>
+      <a href="./galeria.html">Galería</a>
+      <a href="./contacto.html" class="nav__cta">Contacto</a>
+    </nav>
+
+    <button class="menuBtn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </div>
+
+  <div class="mobileNav" id="mobileNav" hidden>
+    <a href="./servicios.html">Servicios</a>
+    <a href="./tienda.html">Productos</a>
+    <a href="./veterinaria.html">Veterinaria</a>
+    <a href="./esterilizacion.html">Esterilización</a>
+    <a href="./galeria.html">Galería</a>
+    <a href="./contacto.html">Contacto</a>
+  </div>
+</header>
+
+<main>
+  <section class="pageHero">
+    <div class="container">
+      <h1>Jornada de esterilización</h1>
+      <p>Campañas programadas (cupo limitado). Te confirmamos preparación y cuidados.</p>
+      <div class="pageHero__actions">
+        <a class="btn btn--primary" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20informaci%C3%B3n%20para%20esterilizaci%C3%B3n%20(raza%2C%20edad%2C%20peso)." target="_blank" rel="noopener">Agendar esterilización</a>
+        <a class="btn btn--ghost" href="./veterinaria.html">Ver veterinaria</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+        <div class="card card--media">
+          <img src="./assets/post-esterilizacion.jpg" alt="Post jornada de esterilización Mascotizados" />
+        </div>
+        <div class="card">
+          <h3>¿Qué me debes enviar por WhatsApp?</h3>
+          <ol class="steps">
+            <li>Especie: perro o gato</li>
+            <li>Edad y peso aproximado</li>
+            <li>Si está en celo / lactancia / condición especial</li>
+            <li>Tu disponibilidad de día</li>
+          </ol>
+          <div class="notice">
+            <strong>Importante:</strong> la preparación previa y el postoperatorio se explican al confirmar la cita.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="floatWA" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="WhatsApp Mascotizados">💬</a>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <strong>Mascotizados</strong><br/>
+      <span class="muted">Tu mascota merece lo mejor</span>
+    </div>
+    <div class="muted">© <span id="year"></span> Mascotizados • Bogotá D.C.</div>
+  </div>
+</footer>
+<script src="./script.js"></script>
+
+</body>
+</html>

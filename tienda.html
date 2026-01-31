@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Productos | Mascotizados</title>
+  <meta name="description" content="Productos Mascotizados: alimentos, snacks, juguetes y accesorios personalizados para perros y gatos en Suba, Bogotá." />
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#3a2bdc" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="./index.html" aria-label="Ir al inicio">
+      <img class="brand__logo" src="./assets/logo.jpg" alt="Mascotizados logo" />
+      <div class="brand__text">
+        <span class="brand__name">Mascotizados</span>
+        <span class="brand__tagline">Tu mascota merece lo mejor</span>
+      </div>
+    </a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="./servicios.html">Servicios</a>
+      <a href="./tienda.html">Productos</a>
+      <a href="./veterinaria.html">Veterinaria</a>
+      <a href="./esterilizacion.html">Esterilización</a>
+      <a href="./galeria.html">Galería</a>
+      <a href="./contacto.html" class="nav__cta">Contacto</a>
+    </nav>
+
+    <button class="menuBtn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </div>
+
+  <div class="mobileNav" id="mobileNav" hidden>
+    <a href="./servicios.html">Servicios</a>
+    <a href="./tienda.html">Productos</a>
+    <a href="./veterinaria.html">Veterinaria</a>
+    <a href="./esterilizacion.html">Esterilización</a>
+    <a href="./galeria.html">Galería</a>
+    <a href="./contacto.html">Contacto</a>
+  </div>
+</header>
+
+<main>
+  <section class="pageHero">
+    <div class="container">
+      <h1>Productos</h1>
+      <p>Lo esencial para el día a día de tu mascota.</p>
+      <div class="pageHero__actions">
+        <a class="btn btn--primary" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20cotizar%20(alimento%2Fsnacks%2Fjuguetes%2Faccesorios)%20para%20mi%20mascota." target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+        <a class="btn btn--ghost" href="./servicios.html">Ver servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+        <article class="card">
+          <h3>🍽️ Alimentos</h3>
+          <p>Para cachorro, adulto y senior. Opciones según necesidad.</p>
+          <ul class="list">
+            <li>Concentrado</li>
+            <li>Dietas especiales (según recomendación veterinaria)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>🥓 Snacks & premios</h3>
+          <p>Para consentir y reforzar conductas positivas.</p>
+          <ul class="list">
+            <li>Masticables</li>
+            <li>Premios de entrenamiento</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>🧸 Juguetes</h3>
+          <p>Interactivos, mordederas y entretenimiento.</p>
+          <ul class="list">
+            <li>Estimulación mental</li>
+            <li>Opciones resistentes</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>🏷️ Accesorios personalizados</h3>
+          <p>Placas, collares y comederos con el nombre de tu mascota.</p>
+          <ul class="list">
+            <li>Placas (nombre + teléfonos)</li>
+            <li>Collares</li>
+            <li>Comederos</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="notice">
+        <strong>Tip de venta:</strong> agrega aquí tus marcas principales (ej. 6–10) para que el cliente pregunte por WhatsApp.
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="floatWA" href="https://wa.me/573023975506?text=Hola%20Mascotizados%2C%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="WhatsApp Mascotizados">💬</a>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <strong>Mascotizados</strong><br/>
+      <span class="muted">Tu mascota merece lo mejor</span>
+    </div>
+    <div class="muted">© <span id="year"></span> Mascotizados • Bogotá D.C.</div>
+  </div>
+</footer>
+<script src="./script.js"></script>
+
+</body>
+</html>
