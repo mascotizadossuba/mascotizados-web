@@ -29,6 +29,4 @@ Reemplaza en /assets manteniendo el mismo nombre:
 
 ## Siguiente mejora (recomendada)
 - Poner horarios reales
-- Lista de marcas principales
-- Tabla de precios desde (peluquería / esterilización)
 - 6–12 fotos reales del local/servicios para “Galería”
